@@ -34,9 +34,7 @@
   });
 </script>
 
-<div
-  class="flex flex-col gap-4 mx-auto px-6 pt-3 pb-8 items-center min-h-screen"
->
+<div class="flex flex-col gap-4 mx-auto px-6 pt-3 pb-8 items-center h-screen">
   <h1 class="text-3xl">
     Connected on: <span class="font-bold">LofiGirl</span>
   </h1>
