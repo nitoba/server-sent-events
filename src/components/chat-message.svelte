@@ -13,7 +13,7 @@
   let messages: Message[] = [];
 
   function handleMessage(message: Message) {
-    messages = [...messages, message];
+    messages = [message, ...messages];
   }
 
   onMount(() => {
@@ -42,7 +42,7 @@
   </h1>
 
   <div
-    class="w-full rounded-lg overflow-y-scroll h-screen bg-slate-200 px-4 py-2 justify-end flex flex-col flex-1 gap-3"
+    class="w-full rounded-lg overflow-y-scroll flex-col-reverse min-h-[calc(100vh-6rem)] bg-slate-200 px-4 py-2 flex gap-3"
   >
     {#each messages as message}
       <div class="bg-slate-100 px-3 py-2 rounded-lg w-fit">
